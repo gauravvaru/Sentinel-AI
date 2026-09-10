@@ -1,0 +1,18 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+.pytest_cache/
+
+# Local / generated data
+data/raw/training.1600000.processed.noemoticon.csv
+
+# macOS
+.DS_Store

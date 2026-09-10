@@ -1,0 +1,13 @@
+pyproject.toml
+src/db/models.py
+src/db/session.py
+src/ingestion/base.py
+src/ingestion/csv_adapter.py
+src/models/event.py
+src/sentinelai.egg-info/PKG-INFO
+src/sentinelai.egg-info/SOURCES.txt
+src/sentinelai.egg-info/dependency_links.txt
+src/sentinelai.egg-info/requires.txt
+src/sentinelai.egg-info/top_level.txt
+tests/test_ingestion.py
+tests/test_schema.py
