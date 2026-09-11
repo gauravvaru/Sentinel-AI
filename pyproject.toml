@@ -12,7 +12,10 @@ dependencies = [
     "psycopg2-binary>=2.9.9",
     "python-dateutil>=2.8.2",
     "pytz",
-    "greenlet"
+    "greenlet",
+    "telethon>=1.33.1",
+    "google-api-python-client>=2.115.0",
+    "python-dotenv>=1.0.0"
 ]
 
 [project.optional-dependencies]
