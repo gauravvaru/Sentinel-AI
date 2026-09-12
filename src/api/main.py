@@ -12,10 +12,12 @@ from src.semantic.trends import TrendAnalysisService
 
 from src.api.network import router as network_router
 from src.api.audience import audience_router
+from src.api.insights import insights_router
 
 app = FastAPI(title="SentinelAI API")
 app.include_router(network_router)
 app.include_router(audience_router)
+app.include_router(insights_router)
 
 # Initialize models
 # In a real production app, we would load this in a lifespan handler to avoid blocking.
