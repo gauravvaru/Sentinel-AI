@@ -20,7 +20,13 @@ dependencies = [
     "torch>=2.0.0",
     "transformers>=4.30.0",
     "datasets>=2.14.0",
-    "evaluate>=0.4.0"
+    "evaluate>=0.4.0",
+    "sentence-transformers>=2.2.2",
+    "bertopic>=0.16.0",
+    "hdbscan>=0.8.33",
+    "pgvector>=0.2.4",
+    "fastapi>=0.109.0",
+    "uvicorn[standard]>=0.27.0"
 ]
 
 [project.optional-dependencies]

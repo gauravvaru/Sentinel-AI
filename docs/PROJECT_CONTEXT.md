@@ -1534,3 +1534,30 @@ Then make the intelligence impressive.
 > **“What user question are we trying to answer, what data proves it, and what is the simplest reliable method that can answer it?”**
 
 That mindset should guide every future code change.
+
+---
+
+# 38. Phase 4 (Topics & Trends) Decisions
+
+During Phase 4 (Topics & Trends), the following architectural and implementation decisions were finalized based on actual deployment:
+
+## 1. Embeddings Model
+We explicitly use **`paraphrase-multilingual-MiniLM-L12-v2`** with 384 dimensions. It provides excellent cross-lingual support (Hinglish/Indian context) with very low memory overhead and latency. `all-MiniLM-L6-v2` (not multilingual) and `MuRIL` (too heavy for embeddings alone) were rejected for this specific task.
+
+## 2. Vector Database
+We implemented **pgvector** directly in the existing PostgreSQL database. A dedicated `Vector(384)` column on `social_events` handles semantic indexing using an **HNSW** index (`vector_cosine_ops`). We did NOT introduce Qdrant or Neo4j, avoiding premature infrastructure bloat.
+
+## 3. Topic Discovery
+We rely on **BERTopic + HDBSCAN** directly consuming the `paraphrase-multilingual-MiniLM-L12-v2` embeddings. The pipeline handles missing data safely and assigns `-1` to outliers. The integer `topic_id` is assigned directly to the `SocialEventModel`, representing a 1:1 relationship between an event and its primary discovered topic to keep the schema simple and maintainable.
+
+## 4. Trend Score
+A custom, deterministic **TrendScore** metric calculates topic momentum in real-time. It explicitly balances:
+1. **Velocity (0.4):** Rate of events in the current time window.
+2. **Engagement Growth (0.3):** Aggregated metrics (likes + replies + shares) vs the previous window.
+3. **Cross-Platform Presence (0.2):** Distinct platform count (X, Telegram, YouTube).
+4. **Novelty (0.1):** Recency score decaying over a 30-day period.
+
+We did NOT implement LambdaMART for ranking, opting for this deterministic MVP approach instead.
+
+## 5. API Layer
+We successfully introduced **FastAPI** as the main application interface. It provides endpoints for `POST /api/search` (pgvector cosine similarity), `GET /api/topics/trending` (TrendScore execution), and `GET /api/topics/{topic_id}`. Testing is handled via `pytest` and `fastapi.testclient` without depending on live cloud dependencies.

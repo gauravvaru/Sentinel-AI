@@ -1,8 +1,18 @@
 from datetime import datetime
-from sqlalchemy import Column, String, Integer, DateTime, JSON, Text
-from sqlalchemy.orm import declarative_base
+from sqlalchemy import Column, String, Integer, DateTime, JSON, Text, ForeignKey, Boolean
+from sqlalchemy.orm import declarative_base, relationship
+from pgvector.sqlalchemy import Vector
 
 Base = declarative_base()
+
+class TopicModel(Base):
+    __tablename__ = 'topics'
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String, nullable=False)
+    keywords = Column(JSON, nullable=False, default=list)
+    is_outlier = Column(Boolean, nullable=False, default=False)
+    created_at = Column(DateTime(timezone=True), nullable=False, default=datetime.utcnow)
 
 class SocialEventModel(Base):
     __tablename__ = 'social_events'
@@ -33,3 +43,7 @@ class SocialEventModel(Base):
     follower_count = Column(Integer, nullable=True)
 
     raw_payload = Column(JSON, nullable=False, default=dict)
+
+    # Added in Phase 4
+    embedding = Column(Vector(384), nullable=True)
+    topic_id = Column(Integer, ForeignKey('topics.id'), nullable=True, index=True)

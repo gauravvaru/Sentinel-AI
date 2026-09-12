@@ -24,3 +24,10 @@ data/raw/training.1600000.processed.noemoticon.csv
 # Python cache
 *.pyc
 __pycache__/
+
+# Python packaging metadata
+*.egg-info/
+
+# Python cache
+*.pyc
+__pycache__/
