@@ -1,0 +1,15 @@
+{
+    "tfidf": {
+        "ngram_range": [
+            1,
+            2
+        ],
+        "sublinear_tf": true,
+        "min_df": 2,
+        "max_df": 0.95
+    },
+    "logreg": {
+        "max_iter": 2000,
+        "random_state": 42
+    }
+}

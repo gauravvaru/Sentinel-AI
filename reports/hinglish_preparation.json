@@ -1,0 +1,33 @@
+{
+    "source_row_counts": 17594,
+    "cleaned_row_count": 15658,
+    "missing_text_rows_quarantined": 26,
+    "duplicate_groups": 1682,
+    "same_label_duplicate_groups": 1569,
+    "conflicting_label_groups": 113,
+    "quarantined_rows": 300,
+    "final_train_count": 14091,
+    "final_validation_count": 1567,
+    "final_class_distributions": {
+        "train": {
+            "0": 4083,
+            "1": 5310,
+            "2": 4698
+        },
+        "validation": {
+            "0": 454,
+            "1": 591,
+            "2": 522
+        }
+    },
+    "exact_train_validation_overlap": 0,
+    "random_seed": 42,
+    "preprocessing_decisions": [
+        "Missing text rows are quarantined.",
+        "Text-level deduplication is applied.",
+        "Identical texts with the same label are merged into a single canonical row.",
+        "Identical texts with conflicting labels are entirely quarantined.",
+        "Stratified split by label ensures balanced distributions.",
+        "Test set is left completely untouched."
+    ]
+}

@@ -15,7 +15,12 @@ dependencies = [
     "greenlet",
     "telethon>=1.33.1",
     "google-api-python-client>=2.115.0",
-    "python-dotenv>=1.0.0"
+    "python-dotenv>=1.0.0",
+    "scikit-learn>=1.3.0",
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+    "datasets>=2.14.0",
+    "evaluate>=0.4.0"
 ]
 
 [project.optional-dependencies]

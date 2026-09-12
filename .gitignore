@@ -17,3 +17,10 @@ data/raw/training.1600000.processed.noemoticon.csv
 # macOS
 .DS_Store
 *.session
+
+# Python packaging metadata
+*.egg-info/
+
+# Python cache
+*.pyc
+__pycache__/

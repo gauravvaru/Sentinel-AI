@@ -1,0 +1,10 @@
+#!/bin/bash
+PYTHONPATH=. venv/bin/python scripts/predict_hinglish.py "ye product bilkul bekar hai"
+echo "-------------------"
+PYTHONPATH=. venv/bin/python scripts/predict_hinglish.py "bahut badhiya service hai inki"
+echo "-------------------"
+PYTHONPATH=. venv/bin/python scripts/predict_hinglish.py "kal meeting 10 baje hai"
+echo "-------------------"
+PYTHONPATH=. venv/bin/python scripts/predict_hinglish.py "mujhe yeh pasand nahi aaya, very bad experience"
+echo "-------------------"
+PYTHONPATH=. venv/bin/python scripts/predict_hinglish.py "u r d bst bro!!!!!"

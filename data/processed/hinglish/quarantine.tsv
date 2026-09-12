@@ -1,0 +1,300 @@
+969		1	train	missing_text
+3735		1	train	missing_text
+5213		1	train	missing_text
+9150		1	train	missing_text
+9708		2	train	missing_text
+10405		1	train	missing_text
+13296		1	train	missing_text
+13432		1	train	missing_text
+13983		1	train	missing_text
+14422		1	train	missing_text
+14585		1	train	missing_text
+16231		1	train	missing_text
+19325		2	train	missing_text
+19790		0	train	missing_text
+20107		1	train	missing_text
+20445		1	train	missing_text
+22185		2	train	missing_text
+24066		0	train	missing_text
+28827		1	train	missing_text
+31142		1	train	missing_text
+31943		1	train	missing_text
+35253		1	train	missing_text
+36085		1	train	missing_text
+42731		1	train	missing_text
+43764		2	train	missing_text
+35253		1	validation	missing_text
+313	isko zammen chayiy bus dogma hai ye kabhi akhilesh ki tareef karta hai aur kabhi rahul pm dikh	1	train	conflicting_labels
+41452	isko zammen chayiy bus dogma hai ye kabhi akhilesh ki tareef karta hai aur kabhi rahul pm dikh	0	train	conflicting_labels
+591	ab ye btaega iss pucho tere jiyn b mla hai usm se gina hindu mla kaunsa hai teri muslim awaadi wale gaao	1	train	conflicting_labels
+22621	ab ye btaega iss pucho tere jiyn b mla hai usm se gina hindu mla kaunsa hai teri muslim awaadi wale gaao	0	train	conflicting_labels
+677	🏵️ good morn papa ji plz bless sewa sumiran parmarth ka bal bakhshna ji dhan dhan sa	2	train	conflicting_labels
+5352	🏵️ good morn papa ji plz bless sewa sumiran parmarth ka bal bakhshna ji dhan dhan sa	1	train	conflicting_labels
+19910	🏵️ good morn papa ji plz bless sewa sumiran parmarth ka bal bakhshna ji dhan dhan sa	2	train	conflicting_labels
+36991	🏵️ good morn papa ji plz bless sewa sumiran parmarth ka bal bakhshna ji dhan dhan sa	2	train	conflicting_labels
+38013	🏵️ good morn papa ji plz bless sewa sumiran parmarth ka bal bakhshna ji dhan dhan sa	2	train	conflicting_labels
+40902	🏵️ good morn papa ji plz bless sewa sumiran parmarth ka bal bakhshna ji dhan dhan sa	2	train	conflicting_labels
+38013	🏵️ good morn papa ji plz bless sewa sumiran parmarth ka bal bakhshna ji dhan dhan sa	2	validation	conflicting_labels
+36991	🏵️ good morn papa ji plz bless sewa sumiran parmarth ka bal bakhshna ji dhan dhan sa	2	validation	conflicting_labels
+765	antar atma ko bech diya hain jab tak beijjat kark bhagaya nahi jata tab tak nahi hilega lekin rahe	2	train	conflicting_labels
+45053	antar atma ko bech diya hain jab tak beijjat kark bhagaya nahi jata tab tak nahi hilega lekin rahe	1	train	conflicting_labels
+942	good morn pita ji thank new day pls bless sewa sumrin parmarth bakso ji	1	train	conflicting_labels
+5408	good morn pita ji thank new day pls bless sewa sumrin parmarth bakso ji	2	train	conflicting_labels
+20268	good morn pita ji thank new day pls bless sewa sumrin parmarth bakso ji	2	train	conflicting_labels
+27143	good morn pita ji thank new day pls bless sewa sumrin parmarth bakso ji	2	train	conflicting_labels
+2156	join us first final friday yoga class book use link bio love see	1	train	conflicting_labels
+8257	join us first final friday yoga class book use link bio love see	2	train	conflicting_labels
+2670	sharma4 evm dhand ho sakti hbut etn bade level pe nahi congress ko agar vote lene h andar hi	0	train	conflicting_labels
+9546	sharma4 evm dhand ho sakti hbut etn bade level pe nahi congress ko agar vote lene h andar hi	2	train	conflicting_labels
+2670	sharma4 evm dhand ho sakti hbut etn bade level pe nahi congress ko agar vote lene h andar hi	0	validation	conflicting_labels
+3276	talash pakistan kay har ghar ki kahani thank muftay well research preview featurefilm zeekayfilm come nan	0	train	conflicting_labels
+7833	talash pakistan kay har ghar ki kahani thank muftay well research preview featurefilm zeekayfilm come nan	2	train	conflicting_labels
+3653	- bjp ko vote muslim mahilaon n purushon ne diy jinko yojnaon ka fayda milaya	2	train	conflicting_labels
+6171	- bjp ko vote muslim mahilaon n purushon ne diy jinko yojnaon ka fayda milaya	1	train	conflicting_labels
+3840	sir rahul aap pareshan na ho aapbjeet hai haar nahi kyu ki bjp evm mai gadbadi kark jeeti hai mai	0	train	conflicting_labels
+39177	sir rahul aap pareshan na ho aapbjeet hai haar nahi kyu ki bjp evm mai gadbadi kark jeeti hai mai	1	train	conflicting_labels
+4270	hariom ye log kabhi bhi kisi ke saagein nhi ho saktein kyon ki inki aasmaani kitaa	0	train	conflicting_labels
+18694	hariom ye log kabhi bhi kisi ke saagein nhi ho saktein kyon ki inki aasmaani kitaa	1	train	conflicting_labels
+4645	modi ji jaiy aasirwaad lekar aaiy aur ghotalebaaz guiness secur ltd ka md kamal kothari ko jai	2	train	conflicting_labels
+42415	modi ji jaiy aasirwaad lekar aaiy aur ghotalebaaz guiness secur ltd ka md kamal kothari ko jai	0	train	conflicting_labels
+5072	agar sach bahaduri hai rajneeti chhor kyon nahi deta mader tera baap amethi haar gaya	0	train	conflicting_labels
+35030	agar sach bahaduri hai rajneeti chhor kyon nahi deta mader tera baap amethi haar gaya	1	train	conflicting_labels
+5617	best chappal award confirm ca n't wait tummeriho ye movi bht achi hogi 100 % aur iss	1	train	conflicting_labels
+28500	best chappal award confirm ca n't wait tummeriho ye movi bht achi hogi 100 % aur iss	2	train	conflicting_labels
+5841	duniya ka sabs bada imandaar tu hai democraci birodh ka adhikaar hai tum unpadhoo ko kaya malum	0	train	conflicting_labels
+36719	duniya ka sabs bada imandaar tu hai democraci birodh ka adhikaar hai tum unpadhoo ko kaya malum	2	train	conflicting_labels
+6022	evm ke harwar set kark chunaaw jeetaa gya hai elect commiss pese khaakar bjp ko jitaya hai hardwar	0	train	conflicting_labels
+29326	evm ke harwar set kark chunaaw jeetaa gya hai elect commiss pese khaakar bjp ko jitaya hai hardwar	1	train	conflicting_labels
+6678	💕 good morn rockstar papa ji 💕 🌹 plz bless sewa sumiran parmarth ka ba	1	train	conflicting_labels
+25956	💕 good morn rockstar papa ji 💕 🌹 plz bless sewa sumiran parmarth ka ba	2	train	conflicting_labels
+6887	hye u open ur dm thankyou 😊 nan	1	train	conflicting_labels
+38230	hye u open ur dm thankyou 😊 nan	2	train	conflicting_labels
+6993	love friend sapna ji aapka dil churalunga key ki hame aapk dil raht h aap mar dil ho love frien	1	train	conflicting_labels
+18730	love friend sapna ji aapka dil churalunga key ki hame aapk dil raht h aap mar dil ho love frien	2	train	conflicting_labels
+6993	love friend sapna ji aapka dil churalunga key ki hame aapk dil raht h aap mar dil ho love frien	1	validation	conflicting_labels
+7243	congress support rememb maukamauka ad star sport cricket world cup keep cracker	1	train	conflicting_labels
+13393	congress support rememb maukamauka ad star sport cricket world cup keep cracker	2	train	conflicting_labels
+7331	rotudu wagl ha ha ha enjoy even enjoy elect victori parasit	2	train	conflicting_labels
+13154	rotudu wagl ha ha ha enjoy even enjoy elect victori parasit	0	train	conflicting_labels
+7331	rotudu wagl ha ha ha enjoy even enjoy elect victori parasit	2	validation	conflicting_labels
+7931	sir ye icc ke jyadatar event england hi kyu hote hai jabki ye fix hota hai ki har dusra match	0	train	conflicting_labels
+34735	sir ye icc ke jyadatar event england hi kyu hote hai jabki ye fix hota hai ki har dusra match	1	train	conflicting_labels
+34735	sir ye icc ke jyadatar event england hi kyu hote hai jabki ye fix hota hai ki har dusra match	1	validation	conflicting_labels
+7941	energi eid safayi 😪	2	train	conflicting_labels
+9524	energi eid safayi 😪	1	train	conflicting_labels
+9524	energi eid safayi 😪	1	validation	conflicting_labels
+7971	dogl ko kabhi bhi bjp samil nahi karna chahiy wais bjp khuda hi samajhadar haiisn gujrat el	2	train	conflicting_labels
+18587	dogl ko kabhi bhi bjp samil nahi karna chahiy wais bjp khuda hi samajhadar haiisn gujrat el	1	train	conflicting_labels
+7971	dogl ko kabhi bhi bjp samil nahi karna chahiy wais bjp khuda hi samajhadar haiisn gujrat el	2	validation	conflicting_labels
+8028	ind ye insaan smriti ji aur modi ji ke pichh hath dhokar padd gaya hai 😂😂 har	0	train	conflicting_labels
+36208	ind ye insaan smriti ji aur modi ji ke pichh hath dhokar padd gaya hai 😂😂 har	1	train	conflicting_labels
+8692	logon ko kam chor bana rahe hain ye log hamari mahnat ka paisa hai ais nahi udaya kart apn ghar k pai	1	train	conflicting_labels
+41116	logon ko kam chor bana rahe hain ye log hamari mahnat ka paisa hai ais nahi udaya kart apn ghar k pai	0	train	conflicting_labels
+8692	logon ko kam chor bana rahe hain ye log hamari mahnat ka paisa hai ais nahi udaya kart apn ghar k pai	1	validation	conflicting_labels
+9189	rahul gandhi ko chowkidar chor hai ka nara bhut bhari pad gya kuki wo khud bail	0	train	conflicting_labels
+20844	rahul gandhi ko chowkidar chor hai ka nara bhut bhari pad gya kuki wo khud bail	1	train	conflicting_labels
+10505	sabka saath sabka vika sabka viswa	2	train	conflicting_labels
+41569	sabka saath sabka vika sabka viswa	1	train	conflicting_labels
+44068	sabka saath sabka vika sabka viswa	1	train	conflicting_labels
+10960	ek tumhi toh ho samajhdar bhai sahab ji han raaj han ko kisi nai nahi jitaya modi ji ko jeetaya hai sa	2	train	conflicting_labels
+14465	ek tumhi toh ho samajhdar bhai sahab ji han raaj han ko kisi nai nahi jitaya modi ji ko jeetaya hai sa	0	train	conflicting_labels
+11080	sir ap se request hai ap bengal manirul islam ko bjp se bahar kijiea use bjp ki bahut admi ko mara hai	0	train	conflicting_labels
+41929	sir ap se request hai ap bengal manirul islam ko bjp se bahar kijiea use bjp ki bahut admi ko mara hai	1	train	conflicting_labels
+11095	part1-vot ke din kitn hain chan bhar bhi nahi jo jina parega wohi jindagi age badht hue peech chaln lagi	2	train	conflicting_labels
+13250	part1-vot ke din kitn hain chan bhar bhi nahi jo jina parega wohi jindagi age badht hue peech chaln lagi	1	train	conflicting_labels
+13250	part1-vot ke din kitn hain chan bhar bhi nahi jo jina parega wohi jindagi age badht hue peech chaln lagi	1	validation	conflicting_labels
+11328	tum jais log tv studio batkar bjp ki dalali karo total channel aur opposit ko gali g	1	train	conflicting_labels
+12212	tum jais log tv studio batkar bjp ki dalali karo total channel aur opposit ko gali g	0	train	conflicting_labels
+12212	tum jais log tv studio batkar bjp ki dalali karo total channel aur opposit ko gali g	0	validation	conflicting_labels
+11330	life jhand hai jcb ki kudi badi mast hai 😂🤣😂🤣😒🤦🏽‍♂️😭	2	train	conflicting_labels
+38441	life jhand hai jcb ki kudi badi mast hai 😂🤣😂🤣😒🤦🏽‍♂️😭	1	train	conflicting_labels
+11330	life jhand hai jcb ki kudi badi mast hai 😂🤣😂🤣😒🤦🏽‍♂️😭	2	validation	conflicting_labels
+11653	height sir se paanv tak birthday parti nahi dunga sign poor naam ke karta hun favourit colour rangeen hai zindag nan	1	train	conflicting_labels
+36482	height sir se paanv tak birthday parti nahi dunga sign poor naam ke karta hun favourit colour rangeen hai zindag nan	2	train	conflicting_labels
+12541	aziz	1	train	conflicting_labels
+36167	aziz	0	train	conflicting_labels
+12541	aziz	1	validation	conflicting_labels
+12560	atif aslam said koi apna nahi gham ke maaray hain hum feel 💔💔 nan	2	train	conflicting_labels
+19717	atif aslam said koi apna nahi gham ke maaray hain hum feel 💔💔 nan	1	train	conflicting_labels
+12631	eid ke mauk per arah hai apn salman bhaijan lekar bharat movi unk fan ke liy yeh eidi hua unk taraf se 🙂 nan	2	train	conflicting_labels
+35097	eid ke mauk per arah hai apn salman bhaijan lekar bharat movi unk fan ke liy yeh eidi hua unk taraf se 🙂 nan	1	train	conflicting_labels
+12763	smriti ji bas aps ek gujari hai ki ap amethi ke chaplooson se bach ke rahiyega congratul victori nan	0	train	conflicting_labels
+18916	smriti ji bas aps ek gujari hai ki ap amethi ke chaplooson se bach ke rahiyega congratul victori nan	2	train	conflicting_labels
+12822	hahahaha good morn ji vais hui nhee hogi aapki morn good yaar aap dhaansu wali	2	train	conflicting_labels
+20960	hahahaha good morn ji vais hui nhee hogi aapki morn good yaar aap dhaansu wali	1	train	conflicting_labels
+13014	happi	1	train	conflicting_labels
+16892	happi	2	train	conflicting_labels
+16892	happi	2	validation	conflicting_labels
+13065	thefilm	1	train	conflicting_labels
+16451	thefilm	1	train	conflicting_labels
+23592	thefilm	1	train	conflicting_labels
+25538	thefilm	1	train	conflicting_labels
+28114	thefilm	2	train	conflicting_labels
+37304	thefilm	1	train	conflicting_labels
+13072	abvp full gawar jinka padhaai se koi naata nahi hai jcbkikhudaai nan	0	train	conflicting_labels
+19970	abvp full gawar jinka padhaai se koi naata nahi hai jcbkikhudaai nan	1	train	conflicting_labels
+13091	watersavingtipsbystramrahim dr msg water precious us sacha sauda sirsa	2	train	conflicting_labels
+19830	watersavingtipsbystramrahim dr msg water precious us sacha sauda sirsa	1	train	conflicting_labels
+19830	watersavingtipsbystramrahim dr msg water precious us sacha sauda sirsa	1	validation	conflicting_labels
+13231	mpapjoin ab nahi chaleg nan	1	train	conflicting_labels
+34762	mpapjoin ab nahi chaleg nan	0	train	conflicting_labels
+13391	kewal rjd hi nahi sare pratipakshi ko yedi majbut hona hai jativad tatha parivad bad se alag chalna hoga varna	0	train	conflicting_labels
+4229	kewal rjd hi nahi sare pratipakshi ko yedi majbut hona hai jativad tatha parivad bad se alag chalna hoga varna	2	validation	conflicting_labels
+14080	tum logo ne feku k 5 sal feku ki bhakti aur hindu-muslim hi kiya hefeku k 5 sal mehgaibero	0	train	conflicting_labels
+43951	tum logo ne feku k 5 sal feku ki bhakti aur hindu-muslim hi kiya hefeku k 5 sal mehgaibero	1	train	conflicting_labels
+43951	tum logo ne feku k 5 sal feku ki bhakti aur hindu-muslim hi kiya hefeku k 5 sal mehgaibero	1	validation	conflicting_labels
+14327	bahut zyaada yaar log kitnay ganday aur zaalim hain doosron ki betiyon ki zindagiyan ujaartay hain	0	train	conflicting_labels
+18139	bahut zyaada yaar log kitnay ganday aur zaalim hain doosron ki betiyon ki zindagiyan ujaartay hain	2	train	conflicting_labels
+14439	bharat apki news ki present bahut hi poor hai news ko ais bolt hai ki irrit hoti hai au	0	train	conflicting_labels
+28457	bharat apki news ki present bahut hi poor hai news ko ais bolt hai ki irrit hoti hai au	1	train	conflicting_labels
+14439	bharat apki news ki present bahut hi poor hai news ko ais bolt hai ki irrit hoti hai au	0	validation	conflicting_labels
+14501	pleas remov love coz win 😷😷 pleas aap kucch	2	train	conflicting_labels
+22479	pleas remov love coz win 😷😷 pleas aap kucch	0	train	conflicting_labels
+14577	team select taik nahi captain bhi 2 takk ka nahi player saar relo katt hafez imad shadab geniun batsman aur	0	train	conflicting_labels
+17024	team select taik nahi captain bhi 2 takk ka nahi player saar relo katt hafez imad shadab geniun batsman aur	1	train	conflicting_labels
+14577	team select taik nahi captain bhi 2 takk ka nahi player saar relo katt hafez imad shadab geniun batsman aur	0	validation	conflicting_labels
+14828	congratul sir happi ki aap hamar pm bne dil se welcom kart hai aap ko thanku much sir apn indi	2	train	conflicting_labels
+26884	congratul sir happi ki aap hamar pm bne dil se welcom kart hai aap ko thanku much sir apn indi	1	train	conflicting_labels
+14828	congratul sir happi ki aap hamar pm bne dil se welcom kart hai aap ko thanku much sir apn indi	2	validation	conflicting_labels
+14850	sidhu ji aapko ham bahut mant congress main jake ult sedh bayan sekar khud apni mitti paleet kar li nan	1	train	conflicting_labels
+32579	sidhu ji aapko ham bahut mant congress main jake ult sedh bayan sekar khud apni mitti paleet kar li nan	0	train	conflicting_labels
+14873	zaman ne gham ke alawa kuch dekha nahi aajkal umme duniya se naya rishta jodn ki taak mein hai kaafir pre	1	train	conflicting_labels
+26812	zaman ne gham ke alawa kuch dekha nahi aajkal umme duniya se naya rishta jodn ki taak mein hai kaafir pre	2	train	conflicting_labels
+26812	zaman ne gham ke alawa kuch dekha nahi aajkal umme duniya se naya rishta jodn ki taak mein hai kaafir pre	2	validation	conflicting_labels
+14881	muze modi ji ko jitana tha aapko modi ji ko jitaana tha modi ji jeet gay ham aap khush huy	2	train	conflicting_labels
+23159	muze modi ji ko jitana tha aapko modi ji ko jitaana tha modi ji jeet gay ham aap khush huy	1	train	conflicting_labels
+15538	hansraj total unfit bjp post 🤣 woh muslim ko galt nahin boln wala na koi bhadkau bhasan dene wala hai nan	0	train	conflicting_labels
+23164	hansraj total unfit bjp post 🤣 woh muslim ko galt nahin boln wala na koi bhadkau bhasan dene wala hai nan	1	train	conflicting_labels
+15741	happi god answer prayer aaj pak mein phatak futeng nan	2	train	conflicting_labels
+41073	happi god answer prayer aaj pak mein phatak futeng nan	0	train	conflicting_labels
+15797	tamam aashiqan e rasool ko jumma mubarak ho	1	train	conflicting_labels
+29731	tamam aashiqan e rasool ko jumma mubarak ho	2	train	conflicting_labels
+15799	ji aapko jeet bahut bahut subhkamnay aap e ek dil ki icha hai ki aap	1	train	conflicting_labels
+18778	ji aapko jeet bahut bahut subhkamnay aap e ek dil ki icha hai ki aap	2	train	conflicting_labels
+15876	rassi jal gaya lekin aithan nahi gaya .. @ rahulgandhi ..52 hi kari ho bjp ke liyeinch inch ki ladai karog	0	train	conflicting_labels
+27137	rassi jal gaya lekin aithan nahi gaya .. @ rahulgandhi ..52 hi kari ho bjp ke liyeinch inch ki ladai karog	1	train	conflicting_labels
+38088	rassi jal gaya lekin aithan nahi gaya .. @ rahulgandhi ..52 hi kari ho bjp ke liyeinch inch ki ladai karog	0	train	conflicting_labels
+27137	rassi jal gaya lekin aithan nahi gaya .. @ rahulgandhi ..52 hi kari ho bjp ke liyeinch inch ki ladai karog	1	validation	conflicting_labels
+38088	rassi jal gaya lekin aithan nahi gaya .. @ rahulgandhi ..52 hi kari ho bjp ke liyeinch inch ki ladai karog	0	validation	conflicting_labels
+15989	🙏🙏🙏🙏 behn ji rehndo hame hamar haal pe chod jinh apn samaaj ki galtiya hi nhi dikhti woh dusro k	1	train	conflicting_labels
+30271	🙏🙏🙏🙏 behn ji rehndo hame hamar haal pe chod jinh apn samaaj ki galtiya hi nhi dikhti woh dusro k	0	train	conflicting_labels
+16053	vishrut happi birthday vishrut khao pio mast rahoo 🙌🙌	2	train	conflicting_labels
+38354	vishrut happi birthday vishrut khao pio mast rahoo 🙌🙌	1	train	conflicting_labels
+16053	vishrut happi birthday vishrut khao pio mast rahoo 🙌🙌	2	validation	conflicting_labels
+16066	rahul ji desh ko aap ki jarurt hai aap k apno ne desh ko sich sich k es layk banaya hai hum jroor k	1	train	conflicting_labels
+26370	rahul ji desh ko aap ki jarurt hai aap k apno ne desh ko sich sich k es layk banaya hai hum jroor k	2	train	conflicting_labels
+16089	prachand jeet ki hardik subhkamnay pls rserv 1 lane ambul ov	1	train	conflicting_labels
+43972	prachand jeet ki hardik subhkamnay pls rserv 1 lane ambul ov	2	train	conflicting_labels
+16223	aap ki dna news awaj ko sare desh bashi ko pouchao hame aasha hai modi ji aapka dna interview ki jariy se	2	train	conflicting_labels
+33987	aap ki dna news awaj ko sare desh bashi ko pouchao hame aasha hai modi ji aapka dna interview ki jariy se	1	train	conflicting_labels
+16422	bayan tu farma diya aik ghulam sooch nay keh iss ka dada iss ka baba yeh tha wo tha iss l	0	train	conflicting_labels
+28651	bayan tu farma diya aik ghulam sooch nay keh iss ka dada iss ka baba yeh tha wo tha iss l	1	train	conflicting_labels
+16532	diljit paji saw shaada trailer maza ah gya paji bhut vadiya lagya nd happi nd knw	2	train	conflicting_labels
+41774	diljit paji saw shaada trailer maza ah gya paji bhut vadiya lagya nd happi nd knw	1	train	conflicting_labels
+17435	madam koi acchi kitab padho aisi violent kitaab padhkar aap bhi violent ho jayengi nan	1	train	conflicting_labels
+29389	madam koi acchi kitab padho aisi violent kitaab padhkar aap bhi violent ho jayengi nan	2	train	conflicting_labels
+17871	best morn guru pa ji .🙏🙏 pls bless n sewa simran 🙏🙏 nan	2	train	conflicting_labels
+19938	best morn guru pa ji .🙏🙏 pls bless n sewa simran 🙏🙏 nan	1	train	conflicting_labels
+18131	global agenda sirf modi ji ke pas hai congress 72000 se vote kharidna chahti thi aur desh ke agend	0	train	conflicting_labels
+22745	global agenda sirf modi ji ke pas hai congress 72000 se vote kharidna chahti thi aur desh ke agend	1	train	conflicting_labels
+18131	global agenda sirf modi ji ke pas hai congress 72000 se vote kharidna chahti thi aur desh ke agend	0	validation	conflicting_labels
+18413	mam hmlog waisa bhi aajtk dekhta hai par aaj aapna ya glt bola ki modi ji ki maa aajtk dekh rhi hai	2	train	conflicting_labels
+41832	mam hmlog waisa bhi aajtk dekhta hai par aaj aapna ya glt bola ki modi ji ki maa aajtk dekh rhi hai	1	train	conflicting_labels
+19178	sorri sir total disagre u sir desh sare bevkoof nahi ho sekt take design majo	0	train	conflicting_labels
+21736	sorri sir total disagre u sir desh sare bevkoof nahi ho sekt take design majo	1	train	conflicting_labels
+19178	sorri sir total disagre u sir desh sare bevkoof nahi ho sekt take design majo	0	validation	conflicting_labels
+19222	allah pak os k dil ka darwaza kbi nai krta jo sb k lyhe ach ehsa aor dua dil rkhta ho aajzi nan	1	train	conflicting_labels
+22189	allah pak os k dil ka darwaza kbi nai krta jo sb k lyhe ach ehsa aor dua dil rkhta ho aajzi nan	2	train	conflicting_labels
+19556	whi tf one think arsal ! ! ! munda ghar se ghayab hai aur kisi ko koi fikar nahi 😳🙄 sunochanda sunochanda2 nan	1	train	conflicting_labels
+39210	whi tf one think arsal ! ! ! munda ghar se ghayab hai aur kisi ko koi fikar nahi 😳🙄 sunochanda sunochanda2 nan	0	train	conflicting_labels
+19726	super stupid secur user verifi everi point made miss tatkal book kind hire	0	train	conflicting_labels
+3497	super stupid secur user verifi everi point made miss tatkal book kind hire	1	validation	conflicting_labels
+19730	modi ji toh jeet gay lekin modi ji k ais aandhi bhi jeetan se rah gay karan bhagw	2	train	conflicting_labels
+43521	modi ji toh jeet gay lekin modi ji k ais aandhi bhi jeetan se rah gay karan bhagw	1	train	conflicting_labels
+19961	offic roop prash04 deepika006 snehal	1	train	conflicting_labels
+23545	offic roop prash04 deepika006 snehal	2	train	conflicting_labels
+19961	offic roop prash04 deepika006 snehal	1	validation	conflicting_labels
+1393	offic roop prash04 deepika006 snehal	1	validation	conflicting_labels
+20534	ghalti ahm shah ki nahi hai ghalti usko misguid karnay walon ki hai stop hate kid god 's sake nan	1	train	conflicting_labels
+38174	ghalti ahm shah ki nahi hai ghalti usko misguid karnay walon ki hai stop hate kid god 's sake nan	2	train	conflicting_labels
+20672	bleedblu jitega toh india hi ! 🇮🇳 layegatohkohlihi worldcup india teamindia worldcup2019 india dhoni koh	1	train	conflicting_labels
+32183	bleedblu jitega toh india hi ! 🇮🇳 layegatohkohlihi worldcup india teamindia worldcup2019 india dhoni koh	2	train	conflicting_labels
+21010	nariend modi ji ki jeet hui ha 350 p ki nhi jo modi ka nam say vote magta ha sudhar jao 5sal ka time ha kuch k	1	train	conflicting_labels
+39014	nariend modi ji ki jeet hui ha 350 p ki nhi jo modi ka nam say vote magta ha sudhar jao 5sal ka time ha kuch k	0	train	conflicting_labels
+21971	aaj ak vidio dekha tha jism ak manorma bol raha tha ki india ke baap pakistan hai jabki hakikt hai ki pakistan k	0	train	conflicting_labels
+31133	aaj ak vidio dekha tha jism ak manorma bol raha tha ki india ke baap pakistan hai jabki hakikt hai ki pakistan k	1	train	conflicting_labels
+22332	nigam sonu ji thank appreci els concert kar lo bulana jaror nan	2	train	conflicting_labels
+31769	nigam sonu ji thank appreci els concert kar lo bulana jaror nan	1	train	conflicting_labels
+22467	manzil mile na mile par haan kutt zarur bhoknt hain aur manzil pe jaan waalon ko bhonk bhonk ke r	1	train	conflicting_labels
+34234	manzil mile na mile par haan kutt zarur bhoknt hain aur manzil pe jaan waalon ko bhonk bhonk ke r	2	train	conflicting_labels
+34234	manzil mile na mile par haan kutt zarur bhoknt hain aur manzil pe jaan waalon ko bhonk bhonk ke r	2	validation	conflicting_labels
+23245	dear rahulgandhi opposit ke leader toh ban jayog na regard aapka entertain ka ek saccha fan	0	train	conflicting_labels
+41200	dear rahulgandhi opposit ke leader toh ban jayog na regard aapka entertain ka ek saccha fan	1	train	conflicting_labels
+23650	unh kam samajhn ki bhool mat karna intern communiti koi dainik jagran nahi padta	2	train	conflicting_labels
+24771	unh kam samajhn ki bhool mat karna intern communiti koi dainik jagran nahi padta	0	train	conflicting_labels
+23785	hi pmo good morn modi ji se ek binti hai hum log facbook pe unk liy din raat lage rahe modi ji k par	2	train	conflicting_labels
+39578	hi pmo good morn modi ji se ek binti hai hum log facbook pe unk liy din raat lage rahe modi ji k par	1	train	conflicting_labels
+23989	aur taali thukwaega chakk pappu harwa diya jahan jahan gaya state saaf kara diya tum jais saar	0	train	conflicting_labels
+38050	aur taali thukwaega chakk pappu harwa diya jahan jahan gaya state saaf kara diya tum jais saar	2	train	conflicting_labels
+24193	logon ki kismat mein toh lutna hi likha hai ameer gareebon ko loott hai vyapari grahakon ko loott hai aur neta	1	train	conflicting_labels
+43534	logon ki kismat mein toh lutna hi likha hai ameer gareebon ko loott hai vyapari grahakon ko loott hai aur neta	0	train	conflicting_labels
+24193	logon ki kismat mein toh lutna hi likha hai ameer gareebon ko loott hai vyapari grahakon ko loott hai aur neta	1	validation	conflicting_labels
+24524	chup kar warna aankhon ki laser se teko jala dunga sala sacredgam ki date nai bata raha hai nan	2	train	conflicting_labels
+30083	chup kar warna aankhon ki laser se teko jala dunga sala sacredgam ki date nai bata raha hai nan	0	train	conflicting_labels
+24791	shame ye log bhai bahan ko bhi nhi chhodt nan	1	train	conflicting_labels
+28349	shame ye log bhai bahan ko bhi nhi chhodt nan	0	train	conflicting_labels
+24964	adarniya modi jipehl aap ko hardik abhinadan desh ke pm ke liy umid karta hoon ki aap agl	1	train	conflicting_labels
+25220	adarniya modi jipehl aap ko hardik abhinadan desh ke pm ke liy umid karta hoon ki aap agl	2	train	conflicting_labels
+25314	kheln ke liy maidan ki nahi zaroorat hai toh sirf junoon ki cwc19 cwc19london wc2019 iccworldcup2019	2	train	conflicting_labels
+21609	kheln ke liy maidan ki nahi zaroorat hai toh sirf junoon ki cwc19 cwc19london wc2019 iccworldcup2019	1	validation	conflicting_labels
+26097	2019 ke lok sabha elect ek bahut achhi baat hui ki pah baar log jaat paat se upar uthkar desh ki tarakki au	1	train	conflicting_labels
+40762	2019 ke lok sabha elect ek bahut achhi baat hui ki pah baar log jaat paat se upar uthkar desh ki tarakki au	2	train	conflicting_labels
+26097	2019 ke lok sabha elect ek bahut achhi baat hui ki pah baar log jaat paat se upar uthkar desh ki tarakki au	1	validation	conflicting_labels
+40762	2019 ke lok sabha elect ek bahut achhi baat hui ki pah baar log jaat paat se upar uthkar desh ki tarakki au	2	validation	conflicting_labels
+26341	watch punjabi movi rabbdaradio2 nice work team nice stori must watch	2	train	conflicting_labels
+39060	watch punjabi movi rabbdaradio2 nice work team nice stori must watch	1	train	conflicting_labels
+26618	bhai aaphiko sirf etn zabardast script kaha se milt hai ? ? ? aur aap har movi main apni perform	2	train	conflicting_labels
+32449	bhai aaphiko sirf etn zabardast script kaha se milt hai ? ? ? aur aap har movi main apni perform	1	train	conflicting_labels
+27150	geo phir yeh bhi na bhoolo ke pakistan ke tukr kerna walay bhutto ki aulad ko tum log pakistan ka pm ba	0	train	conflicting_labels
+40686	geo phir yeh bhi na bhoolo ke pakistan ke tukr kerna walay bhutto ki aulad ko tum log pakistan ka pm ba	1	train	conflicting_labels
+27926	log kitna bara chootiya hy jhoot ko manker vote krdiya bcz govt foult terror bring	1	train	conflicting_labels
+35850	log kitna bara chootiya hy jhoot ko manker vote krdiya bcz govt foult terror bring	0	train	conflicting_labels
+28360	mast brain hai aapki einstein pagal hojayeng aapki tweet padhk 100 % vote	2	train	conflicting_labels
+35421	mast brain hai aapki einstein pagal hojayeng aapki tweet padhk 100 % vote	1	train	conflicting_labels
+29849	project ka pap khatam hua ab sala theori kaun sambhalega die 😭	1	train	conflicting_labels
+38474	project ka pap khatam hua ab sala theori kaun sambhalega die 😭	0	train	conflicting_labels
+38474	project ka pap khatam hua ab sala theori kaun sambhalega die 😭	0	validation	conflicting_labels
+29849	project ka pap khatam hua ab sala theori kaun sambhalega die 😭	1	validation	conflicting_labels
+30028	good idea famous shit iss sona mohapatra social media tho bnni rhegi ek nan	0	train	conflicting_labels
+39908	good idea famous shit iss sona mohapatra social media tho bnni rhegi ek nan	1	train	conflicting_labels
+30569	hindu bht acha kiya ye bht pehl hi kr dena chahiy tha wais b ye godi media opposit ko insult krne ke ly bulati h nan	1	train	conflicting_labels
+31284	hindu bht acha kiya ye bht pehl hi kr dena chahiy tha wais b ye godi media opposit ko insult krne ke ly bulati h nan	0	train	conflicting_labels
+30794	evm ghotal se sambandhit ye kitab bjp netao ne hi likhi hai uns kyu nhi puchhat	1	train	conflicting_labels
+38615	evm ghotal se sambandhit ye kitab bjp netao ne hi likhi hai uns kyu nhi puchhat	0	train	conflicting_labels
+30794	evm ghotal se sambandhit ye kitab bjp netao ne hi likhi hai uns kyu nhi puchhat	1	validation	conflicting_labels
+33175	baimaan tera ajay singh cheat baaj teri airlin saal chutiya banan ke liy baith ho jakar station bhi	0	train	conflicting_labels
+42337	baimaan tera ajay singh cheat baaj teri airlin saal chutiya banan ke liy baith ho jakar station bhi	1	train	conflicting_labels
+42337	baimaan tera ajay singh cheat baaj teri airlin saal chutiya banan ke liy baith ho jakar station bhi	1	validation	conflicting_labels
+34724	kejriw ji aapka jadu aapki safayi karney key liy readi hai aapka broom jhado	1	train	conflicting_labels
+43613	kejriw ji aapka jadu aapki safayi karney key liy readi hai aapka broom jhado	2	train	conflicting_labels
+35593	islam ka dehshat gardi se koi talluq nahi oic kashmir palestin k awam ka sath day muslim dunya k khilaf mazali	2	train	conflicting_labels
+42474	islam ka dehshat gardi se koi talluq nahi oic kashmir palestin k awam ka sath day muslim dunya k khilaf mazali	1	train	conflicting_labels
+35665	yr ye jo log divis ki bat kr rhe h tum ek bat btao ye jo yha 20 % muslim h ye tums brdash ho ni rhe	0	train	conflicting_labels
+44319	yr ye jo log divis ki bat kr rhe h tum ek bat btao ye jo yha 20 % muslim h ye tums brdash ho ni rhe	1	train	conflicting_labels
+35790	rashid ab chutiya nahi banegi public sab samjh rahe aapki gandi rajneeti anti-modi bank famous hone ka	1	train	conflicting_labels
+36224	rashid ab chutiya nahi banegi public sab samjh rahe aapki gandi rajneeti anti-modi bank famous hone ka	0	train	conflicting_labels
+36141	ye apn suna hi hoga ki maa-baap k karmo ka fal bacho ko bhugtna padta h aap logo k	1	train	conflicting_labels
+36955	ye apn suna hi hoga ki maa-baap k karmo ka fal bacho ko bhugtna padta h aap logo k	0	train	conflicting_labels
+36955	ye apn suna hi hoga ki maa-baap k karmo ka fal bacho ko bhugtna padta h aap logo k	0	validation	conflicting_labels
+36763	amish devgan bhai main aap se kehna chahta hoon modi ji ko samajhn ke liy insaan ko bharat mata ko	1	train	conflicting_labels
+42361	amish devgan bhai main aap se kehna chahta hoon modi ji ko samajhn ke liy insaan ko bharat mata ko	0	train	conflicting_labels
+38556	stayawayfromhypocrisi pujya guru ji dhongion se dur rehn ki prerna dete hai jo logo ko jhuth	1	train	conflicting_labels
+44207	stayawayfromhypocrisi pujya guru ji dhongion se dur rehn ki prerna dete hai jo logo ko jhuth	2	train	conflicting_labels
+41961	jannat ais kisi ko kutta ni bolt ... 😉	1	train	conflicting_labels
+15041	jannat ais kisi ko kutta ni bolt ... 😉	0	train	conflicting_labels
+43242	u p ko 62 seat dene ke bad bhi uchit pratinidhitav nahin brij pradesh ko bhi koi pratiniditav nahin diya agra	1	train	conflicting_labels
+44232	u p ko 62 seat dene ke bad bhi uchit pratinidhitav nahin brij pradesh ko bhi koi pratiniditav nahin diya agra	0	train	conflicting_labels
+33403	gujju ko aadat hai paki pakai huye khane ki last time anna se pakwa ke jo roti lee baar soch rahe	0	train	conflicting_labels
+2975	gujju ko aadat hai paki pakai huye khane ki last time anna se pakwa ke jo roti lee baar soch rahe	1	validation	conflicting_labels
+7833	talash pakistan kay har ghar ki kahani thank muftay well research preview featurefilm zeekayfilm come	2	validation	conflicting_labels
+3276	talash pakistan kay har ghar ki kahani thank muftay well research preview featurefilm zeekayfilm come	0	validation	conflicting_labels

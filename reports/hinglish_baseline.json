@@ -1,0 +1,77 @@
+{
+    "timestamp": "2026-09-11T17:45:22.503878Z",
+    "environment": {
+        "python_version": "3.13.7 (main, Aug 14 2025, 11:12:11) [Clang 17.0.0 (clang-1700.3.19.1)]",
+        "scikit_learn_version": "1.9.1"
+    },
+    "dataset": {
+        "train_size": 14091,
+        "validation_size": 1567,
+        "train_class_distribution": {
+            "0": 4083,
+            "1": 5310,
+            "2": 4698
+        },
+        "validation_class_distribution": {
+            "0": 454,
+            "1": 591,
+            "2": 522
+        }
+    },
+    "configuration": {
+        "tfidf": {
+            "ngram_range": [
+                1,
+                2
+            ],
+            "sublinear_tf": true,
+            "min_df": 2,
+            "max_df": 0.95
+        },
+        "logreg": {
+            "max_iter": 2000,
+            "random_state": 42
+        }
+    },
+    "results": {
+        "accuracy": 0.6604977664326739,
+        "macro_f1": 0.6641123750309926,
+        "weighted_f1": 0.6602343248930583,
+        "macro_precision": 0.6634462171707644,
+        "macro_recall": 0.6648370781451606,
+        "per_class": {
+            "0": {
+                "precision": 0.6774891774891775,
+                "recall": 0.6894273127753304,
+                "f1": 0.6834061135371179
+            },
+            "1": {
+                "precision": 0.5996563573883161,
+                "recall": 0.5905245346869712,
+                "f1": 0.5950554134697357
+            },
+            "2": {
+                "precision": 0.7131931166347992,
+                "recall": 0.7145593869731801,
+                "f1": 0.7138755980861244
+            }
+        },
+        "confusion_matrix": [
+            [
+                313,
+                116,
+                25
+            ],
+            [
+                117,
+                349,
+                125
+            ],
+            [
+                32,
+                117,
+                373
+            ]
+        ]
+    }
+}
