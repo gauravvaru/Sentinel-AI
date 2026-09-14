@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas-base: #F4F5F6;
+  --color-canvas-panel: #FFFFFF;
+  --color-canvas-elevated: #FAFBFC;
+  
+  --color-border-subtle: rgba(23, 32, 42, 0.08);
+  --color-border-strong: #d2dbe9;
+  
+  --color-primary: #ae2a0e;
+  --color-secondary: #2b6485;
+  --color-threat: #E45132;
+  --color-nominal: #2FA77A;
+  --color-warning: #F59E0B;
+  --color-derived: #8B7CC8;
+  
+  --color-status-observed-bg: #EAF7F1;
+  --color-status-observed-text: #2FA77A;
+  --color-status-derived-bg: #F3F1FA;
+  --color-status-derived-text: #8B7CC8;
+  --color-status-rising-bg: #FDF0ED;
+  --color-status-rising-text: #E45132;
+  --color-status-stable-bg: #EEF1F4;
+  --color-status-stable-text: #5E6873;
+  --color-status-insufficient-bg: #F0F2F4;
+  --color-status-insufficient-text: #8D969F;
+  
+  --color-text-primary: #17202A;
+  --color-text-secondary: #5E6873;
+  --color-text-muted: #8B949E;
+
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-canvas-base text-text-primary font-sans antialiased;
+  }
+
+  /* Support tabular nums globally for mono / metrics to avoid layout shift */
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
