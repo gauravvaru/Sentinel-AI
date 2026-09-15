@@ -9,7 +9,10 @@ from src.insights.reporter import InsightReporter
 
 insights_router = APIRouter()
 
+from src.utils.cache import ttl_cache
+
 @insights_router.get("/api/insights", response_model=InsightResponse)
+@ttl_cache(ttl_seconds=60)
 async def get_insights(
     time_window_hours: int = Query(24, description="Time window in hours for cross-module analytics"),
     topic_id: int | None = Query(None, description="Optional topic filter (currently unapplied to preserve global state)"),

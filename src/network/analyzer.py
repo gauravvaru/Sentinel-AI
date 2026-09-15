@@ -187,14 +187,35 @@ class NetworkAnalyzer:
                 "top_influencers": []
             }
             
-        G = self.build_network(events)
-        communities = self.detect_communities(G)
-        influencers = self.calculate_influence(G)
+        import asyncio
+        from types import SimpleNamespace
         
-        # Platform distribution
-        platforms = {}
+        # Safely extract needed fields from SQLAlchemy models to avoid cross-thread greenlet errors
+        safe_events = []
         for e in events:
-            platforms[e.platform] = platforms.get(e.platform, 0) + 1
+            safe_events.append(SimpleNamespace(
+                platform_event_id=e.platform_event_id,
+                user_id=e.user_id,
+                follower_count=e.follower_count,
+                parent_id=e.parent_id,
+                event_type=e.event_type,
+                mentions=e.mentions,
+                platform=e.platform
+            ))
+
+        def _cpu_bound_work():
+            G = self.build_network(safe_events)
+            communities = self.detect_communities(G)
+            influencers = self.calculate_influence(G)
+            
+            # Platform distribution
+            platforms = {}
+            for e in safe_events:
+                platforms[e.platform] = platforms.get(e.platform, 0) + 1
+                
+            return G, communities, influencers, platforms
+            
+        G, communities, influencers, platforms = await asyncio.to_thread(_cpu_bound_work)
             
         return {
             "topic_id": topic_id,

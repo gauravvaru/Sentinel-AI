@@ -39,7 +39,10 @@ class PropagationEvent(BaseModel):
     mentions: List[str]
     text: str
 
+from src.utils.cache import ttl_cache
+
 @router.get("/influencers", response_model=List[InfluencerResponse])
+@ttl_cache(ttl_seconds=60)
 async def get_influencers(
     time_window_hours: int = Query(24, description="Time window in hours"),
     platform: Optional[str] = None,
@@ -52,11 +55,28 @@ async def get_influencers(
     """
     analyzer = NetworkAnalyzer(session)
     events = await analyzer._fetch_events(time_window_hours=time_window_hours, platform=platform, limit=5000)
-    G = analyzer.build_network(events)
-    influencers = analyzer.calculate_influence(G)
+    
+    import asyncio
+    from types import SimpleNamespace
+    safe_events = [SimpleNamespace(
+        platform_event_id=e.platform_event_id,
+        user_id=e.user_id,
+        follower_count=e.follower_count,
+        parent_id=e.parent_id,
+        event_type=e.event_type,
+        mentions=e.mentions,
+        platform=e.platform
+    ) for e in events]
+    
+    def _calc():
+        G = analyzer.build_network(safe_events)
+        return analyzer.calculate_influence(G)
+        
+    influencers = await asyncio.to_thread(_calc)
     return influencers[:limit]
 
 @router.get("/communities", response_model=List[CommunityResponse])
+@ttl_cache(ttl_seconds=60)
 async def get_communities(
     time_window_hours: int = Query(24, description="Time window in hours"),
     platform: Optional[str] = None,
@@ -67,11 +87,28 @@ async def get_communities(
     """
     analyzer = NetworkAnalyzer(session)
     events = await analyzer._fetch_events(time_window_hours=time_window_hours, platform=platform, limit=5000)
-    G = analyzer.build_network(events)
-    communities = analyzer.detect_communities(G)
+    
+    import asyncio
+    from types import SimpleNamespace
+    safe_events = [SimpleNamespace(
+        platform_event_id=e.platform_event_id,
+        user_id=e.user_id,
+        follower_count=e.follower_count,
+        parent_id=e.parent_id,
+        event_type=e.event_type,
+        mentions=e.mentions,
+        platform=e.platform
+    ) for e in events]
+    
+    def _calc():
+        G = analyzer.build_network(safe_events)
+        return analyzer.detect_communities(G)
+        
+    communities = await asyncio.to_thread(_calc)
     return communities
 
 @router.get("/topic/{topic_id}", response_model=TopicNetworkResponse)
+@ttl_cache(ttl_seconds=60)
 async def get_topic_network(
     topic_id: int,
     time_window_hours: int = Query(24, description="Time window in hours"),

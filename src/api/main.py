@@ -32,7 +32,9 @@ class SearchRequest(BaseModel):
 @app.post("/api/search")
 async def semantic_search(request: SearchRequest, session: AsyncSession = Depends(get_session)):
     """Search for social events using semantic similarity."""
-    query_embedding = embedding_model.encode([request.query])[0]
+    import asyncio
+    embeddings = await asyncio.to_thread(embedding_model.encode, [request.query])
+    query_embedding = embeddings[0]
     
     vector_store = PGVectorStore(session)
     results = await vector_store.search(
@@ -43,7 +45,10 @@ async def semantic_search(request: SearchRequest, session: AsyncSession = Depend
     
     return {"results": results}
 
+from src.utils.cache import ttl_cache
+
 @app.get("/api/topics/trending")
+@ttl_cache(ttl_seconds=30)
 async def get_trending_topics(window_hours: int = 24, limit: int = 10, session: AsyncSession = Depends(get_session)):
     """Get the top trending topics."""
     # First, get all valid topics (not outliers)
@@ -52,10 +57,20 @@ async def get_trending_topics(window_hours: int = 24, limit: int = 10, session: 
     topics = result.scalars().all()
     
     trend_service = TrendAnalysisService(session)
-    trending = []
+    all_trends = await trend_service.get_all_topic_trends(window_hours=window_hours)
     
+    trending = []
     for topic in topics:
-        trend_data = await trend_service.get_topic_trend(topic.id, window_hours=window_hours)
+        trend_data = all_trends.get(topic.id, {
+            "trend_score": 0.0,
+            "metrics": {
+                "velocity": 0,
+                "engagement_growth": 0.0,
+                "platform_count": 0,
+                "novelty_score": 0.0
+            }
+        })
+        
         trending.append({
             "topic_id": topic.id,
             "name": topic.name,

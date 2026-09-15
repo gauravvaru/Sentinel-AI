@@ -27,7 +27,10 @@ class AudienceResponse(BaseModel):
     insufficient_data_users: int
     cohorts: list[CohortSummary]
 
+from src.utils.cache import ttl_cache
+
 @audience_router.get("/cohorts", response_model=AudienceResponse)
+@ttl_cache(ttl_seconds=60)
 async def get_audience_cohorts(
     platform: str | None = None,
     limit: int = 1000,
@@ -67,29 +70,29 @@ async def get_audience_cohorts(
         user_events[uid].append(ev_dict)
         
     total_users = len(user_events)
-    usable_features = {}
-    insufficient_count = 0
     
-    for uid, u_events in user_events.items():
-        features = extract_user_features(u_events)
-        if is_usable_for_clustering(features):
-            usable_features[uid] = features
-        else:
-            insufficient_count += 1
-            
-    usable_users = len(usable_features)
-    
-    if usable_users < 2:
-        # Not enough data for meaningful clustering
-        return AudienceResponse(
-            total_users=total_users,
-            usable_users=usable_users,
-            insufficient_data_users=insufficient_count,
-            cohorts=[]
-        )
+    def _cpu_bound_work():
+        usable_features = {}
+        insufficient_count = 0
         
-    # Cluster
-    _, cohort_summaries = cluster_users(usable_features)
+        for uid, u_events in user_events.items():
+            features = extract_user_features(u_events)
+            if is_usable_for_clustering(features):
+                usable_features[uid] = features
+            else:
+                insufficient_count += 1
+                
+        usable_users = len(usable_features)
+        
+        if usable_users < 2:
+            return usable_users, insufficient_count, []
+            
+        # Cluster
+        _, cohort_summaries = cluster_users(usable_features)
+        return usable_users, insufficient_count, cohort_summaries
+
+    import asyncio
+    usable_users, insufficient_count, cohort_summaries = await asyncio.to_thread(_cpu_bound_work)
     
     return AudienceResponse(
         total_users=total_users,
